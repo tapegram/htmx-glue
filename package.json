@@ -1,6 +1,6 @@
 {
   "name": "htmx-glue",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A collection of JS controls to use when building server-side components",
   "module": "index.ts",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "htmx-glue",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "description": "A collection of JS controls to use when building server-side components",
   "module": "index.ts",
   "type": "module",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build-prod": "rm -rf ./out && bun build ./src/common.js --outdir ./out --minify",
-    "publish": "bun run build-prod && npm publish"
+    "build-and-publish": "bun run build-prod && npm publish"
   },
   "devDependencies": {
     "@types/web": "^0.0.117",

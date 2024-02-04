@@ -19,3 +19,7 @@ Then you can use the appropriate control's `data-*` attribute to wire up your co
 See this example with a NotificationLiveRegion: https://github.com/breakthrough-rc/wallchart/blob/dcf8705bacb8b5df88627b6fb647c0b67e05d5ef/web-client/src/server/notification.rs#L16
 
 This documentation is insufficient at the moment, and will be more thoroughly explained as I work through build this out.
+
+## Authorship
+
+The vast majority of the work implementing these controls and wiring them up with the rust components in our original project was done by [Paul Bouzakis](https://github.com/pbouzakis). This package exists to make those efforts reusable in my other projects (e.g. doing HTMX in every language)

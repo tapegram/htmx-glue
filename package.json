@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build-prod": "rm -rf ./out && bun build ./src/common.js --outdir ./out --minify",
-    "build-and-publish": "bun run build-prod && npm publish"
+    "build-and-publish-patch": "bun run build-prod && npm veresion patch && npm publish --access public"
   },
   "devDependencies": {
     "@types/web": "^0.0.117",
